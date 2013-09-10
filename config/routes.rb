@@ -1,6 +1,19 @@
 Caithness::Application.routes.draw do
   get 'about' => 'pages#about'
-
+  get 'history' => 'pages#history'
+  get 'projects' => 'pages#projects'
+  get 'plant_services' => 'pages#plant_services'
+    get 'asset_management' => 'pages#asset_management'
+    get 'operations_maintenance' => 'pages#operations_maintenance'
+    get 'development_support' => 'pages#development_support'
+  get 'locations' => 'pages#locations'
+    get 'map' => 'pages#map'
+    get 'wind' => 'pages#wind'
+    get 'natural_gas' => 'pages#natural_gas'
+    get 'geothermal' => 'pages#geothermal'
+    get 'solar' => 'pages#solar'
+    get 'other' => 'pages#other'
+get 'contact' => 'pages#contact'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,3 +1,5 @@
+ $baseFontFamily: Helvetica;
+
 @import 'bootstrap';
 body{
     padding-top: 60px;
@@ -5,8 +7,8 @@ body{
 
 @import 'bootstrap-responsive';
 
-.footer{
-    position: absolute;
+.footer {
+		text-align: center;
    	bottom: 0;
     color: $grayLight;
     a{
